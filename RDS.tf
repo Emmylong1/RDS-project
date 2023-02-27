@@ -13,13 +13,3 @@ resource "aws_db_instance" "my-rds" {
     name = "myrdsdb"
   }
 }
-
-
-
-
-
-
-
-
-
-
