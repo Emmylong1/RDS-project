@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     sh "terraform init"
-                    sh "terraform apply -var="subnet_prefix=your_subnet_prefix_value"
+                    sh "terraform apply -auto-approve"
                 }
             }
         }
