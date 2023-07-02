@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "production" {
-  bucket = "emmy-tf-test-bucket"
+  bucket = "devops-bucket-learning"
    acl    = "private"
 
   versioning {
