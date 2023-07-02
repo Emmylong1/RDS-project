@@ -4,7 +4,4 @@ provider "aws" {
   secret_key = "AItfp8vxzozzfgFRA6At98ZUtXdvss4c0n+d/fcT"
 }
 
-variable "subnet_prefix" {
-  description = "cidr block for the subnet"
 
-}
